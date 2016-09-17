@@ -37,7 +37,7 @@ require 'plurality'
 
 users = %w(Evan Rob Bill Josh)
 
-Plurality.t 'email.subject', nouns: users #=> "Evan, Rob and 3 others were added"
+Plurality.t 'email.subject', nouns: users #=> "Evan, Rob and 2 others were added"
 
 ```
 
